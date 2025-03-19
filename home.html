@@ -1,0 +1,103 @@
+<!doctype html>
+<head>
+	<title>Available Online Courses</title>
+	<link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+	<header>
+		<nav>
+		<ul>
+			<img src="images/logo.png" style="width: 40px; height: 40px; border-radius: 10px">
+			<li><a href="home.html">Home</a></li>
+			<li><a href="about.html">About us</a></li>
+			<li><a href="course.html">Courses</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+		</ul>
+		</nav>
+		
+	</header>
+	<div class="cover">
+	<h3>Welcome to our website,be Enlightened</h3>
+			<p>We offer courses in Java,SQL,Python,Bootstrap etc</p>
+	<h2 style="text-align: center; font-size: 30px;background-color: darkgrey;font-family: arial; line-height: 1;color: pink">TOP RATED COURSES</h2>
+		</div>
+		<button onclick="clickButton()">click here</button>
+		<button onclick="dbclickButton()">double click here</button>
+	<section>
+		<!--we now use the div tag with class="courses" to group courses in one place-->
+		<div class="courses">
+			<!--we now create another div card with each course 
+				each course card has image,course title,course description,button (register/buy)-->
+				<div class="course-card">
+					<img src="images/web design.jfif">
+					<h3>Web Design in HTML</h3><!--course title-->
+					<p>HTML Basics to advanced</p><!--course description-->
+					<button>Buy Course</button>
+				</div>
+				<div class="course-card">
+					<img src="images/php.png">
+					<h3>PHP</h3><!--course title-->
+					<p>A web server programming language</p><!--course description-->
+					<button>register</button>
+				</div>	
+				<div class="course-card">
+					<img src="images/jquery.png">
+					<h3>jQuery</h3><!--course title-->
+					<p>a JS library for developing web pages</p><!--course description-->
+					<button>register</button>
+				</div>
+				<div class="course-card">
+					<img src="images/kahtml.jfif">
+					<h3>HTML tutorial</h3><!--course title-->
+					<p>language for building web pages</p><!--course description-->
+					<button>register</button>
+				</div>
+				<div class="course-card">
+					<img src="images/bootstrap.png">
+					<h3>Bootstrap</h3><!--course title-->
+					<p>A CSS framework for designing better web pages</p><!--course description-->
+					<button>register</button>
+				</div>
+				<div class="course-card">
+					<img src="images/sql.png">
+					<h3>SQL</h3><!--course title-->
+					<p>A language for accessing databases</p><!--course description-->
+					<button>register</button>
+				</div>
+				<div class="course-card">
+					<img src="images/c++.png">
+					<h3>C ++</h3><!--course title-->
+					<p>A programming language</p><!--course description-->
+					<button>register</button>
+				</div>
+				<div class="course-card">
+					<img src="images/java.png">
+					<h3>java</h3><!--course title-->
+					<p>A programming language</p><!--course description-->
+					<button>register</button>
+				</div>
+				<div class="course-card">
+					<img src="images/python.jfif">
+					<h3>Python</h3><!--course title-->
+					<p>a popular programming language</p><!--course description-->
+					<button>register</button>
+				</div>
+
+		</div>
+		<div class="nextprevious">
+			<button>👈previous</button>
+			<button>next👉</button>
+	</section>
+	<footer>
+		<p>&copy ict stuff - All Rights Reserved</p>
+	</footer>
+	<script>
+		function clickButton(){
+			alert("what a waste"); //alert() shows pop up
+		}
+		function dbclickButton(){
+			alert("fell for it again!"); //alert() shows pop up
+
+	</script>
+</body>
+</html>
